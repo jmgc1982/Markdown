@@ -1,2 +1,3 @@
-# Markdown
-Guía de como escribir bien un archivo Markdown, muy útil para usar en los repositorios de GitHub
+# Uso básico de markdown 📃✏️
+<ins>Más información</ins>:
+[Sintaxis básica de redacción y formato - GitHub Docs](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
