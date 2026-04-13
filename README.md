@@ -220,7 +220,7 @@ Para ver el delimitador generado automáticamente en un archivo representado, ma
 
     El delimitador generado es `#Introducción` y podemos ir a este apartado usando este [**enlace**](#introducción).
 
-    O podemos ir a otro apartado como el de **"subrayado"** usando este otro [**enlace**](#️subrayado).
+    O podemos ir a otro apartado como el de **"subrayado"** usando este otro [**enlace**](#subrayado).
 
 ## 🪧[Imágenes](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
 
