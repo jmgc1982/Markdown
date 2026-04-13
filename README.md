@@ -11,9 +11,11 @@ Además, Markdown es frecuente en entornos de investigación y desarrollo por su
 
 ## 🪧[Encabezados](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)
 
-Sirven para crear una jerarquía de títulos y subtítulos en el documento. Se pueden usar escribiendo una almohadilla # seguida de un espacio al inicio para asignar un encabezado de H1 (`# texto`) hasta escribir un H6 (`###### texto`).
+Sirven para crear una jerarquía de títulos y subtítulos dentro del documento, de esta forma, por ejemplo, se crea un índice automáticamente en GitHub y es mucho más fácil la navegación por todo el documento creado. 
 
-⚠️ ¡No hay subtítulos (H7 o superiores) en markdown, solo existen de H1 a H6! ⚠️
+Se pueden usar escribiendo una almohadilla # seguida de un espacio al inicio para asignar un encabezado de H1 (`# texto`) hasta escribir un H6 (`###### texto`).
+
+⚠️¡IMPORTANTE!⚠️ No hay subtítulos (H7 o superiores) en markdown, solo existen de H1 a H6!
 
 ## ✍️*Formatos de texto*
 
@@ -27,7 +29,7 @@ Para poder poner un texto en negrita usaremos dos asteríscos al inicio y dos al
 
     **Este SI es un texto en negrita**
 
-### 🪧[CURSIVA](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
+### 🪧[Cursiva](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
 Se utiliza para enfatizar (poner en cursiva) el texto. Podemos utilizarlo usando el símbolo asterísco (*) o el guión bajo (_) al inicio y al final sin dejar espacios (`*texto*` o `_texto_`).
 
@@ -39,7 +41,7 @@ Se utiliza para enfatizar (poner en cursiva) el texto. Podemos utilizarlo usando
 
     _Este también lo es..._
 
-### 🪧[SUBRAYADO](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
+### 🪧[Subrayado](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
 Para poder escribir un texto subrayado deberemos usar las etiquetas de apertura y cierre (`<ins>texto</ins>`).
 
@@ -49,7 +51,7 @@ Para poder escribir un texto subrayado deberemos usar las etiquetas de apertura 
 
     <ins>Este texto solo</ins> tiene una parte subrayada.
 
-### 🪧[TACHADO](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
+### 🪧[Tachado](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
 Para escribir un texto y que esté tachado deberemos utilizar el simbolo ~ dos veces al inicio y dos veces al final del texto (`~~texto~~`).
 
@@ -59,7 +61,7 @@ Para escribir un texto y que esté tachado deberemos utilizar el simbolo ~ dos v
 
     Este texto solo tiene esta ~~porción~~ parte tachada
 
-### 🪧[SUBÍNDICE](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
+### 🪧[Subíndice](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
 Cuando queremos escribir un texto con un subíndice (letra o número) del estilo A<sub>B</sub>, debermos usar estas etiquetas (`A<sub>B</sub>`) para especificar el texto que se mostrará como subíndice.
 
@@ -71,7 +73,7 @@ Cuando queremos escribir un texto con un subíndice (letra o número) del estilo
 
     α<sub>π</sub>
 
-### 🪧[SUPERÍNDICE](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
+### 🪧[Superíndice](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
 Igual que hemos visto con el subíndice, para poder escribir un superíndice del estilo 2<sup>3</sup> debermos usar las etiquetas (`2<sup>3</sup>`) para especificar el texto que se mostrará como superíndice.
 
@@ -84,7 +86,7 @@ Igual que hemos visto con el subíndice, para poder escribir un superíndice del
     α<sup>π</sup>
 
 
-## 🪧[CITAS](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-text)
+## 🪧[Citas](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-text)
 
 Sirven para citar un texto.
 
@@ -95,7 +97,7 @@ Podemos citar texto usando el símbolo de mayor que (>) al inicio.
     Texto que no es una Cita
     > Texto que es una Cita
 
-## 🪧[LISTAS](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#lists)
+## 🪧[Listas](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#lists)
 
 Se utilizan para poder mostrar elementos de una lista.
 
