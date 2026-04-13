@@ -226,11 +226,17 @@ Para ver el delimitador generado automáticamente en un archivo representado, ma
 
 ## 🪧[Imágenes](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
 
-Se puede mostrar una imagen escribiendo `!` y ajustando el texto alternativo dentro de `[ ]`. El texto alternativo es un texto corto equivalente a la información de la imagen. Finalmente, se debe de indicar el vínculo URL de la imagen entre paréntesis `()`. El formato es: `![texto_alt](URL)`. También se puede mostrar una imagen almacenada en el repositorio.
+Se puede mostrar una imagen escribiendo `!` y ajustando el texto alternativo dentro de `[ ]`. El texto alternativo es un texto corto equivalente a la información de la imagen. Finalmente, se debe de indicar el vínculo URL de la imagen entre paréntesis `()`. El formato es: `![texto_alt](URL)`. 
+
+También se puede mostrar una imagen almacenada en el repositorio de GitHub. Primero deberemos agregar esta imagen en el repositorio, luego ver que URL nos generar GitHub y finalmente enlazarla.
 
 - 🧐Ejemplos:
 
+    Imágen con URL externa:
+
     ![Octocat sonriendo y levantando un tentáculo](https://myoctocat.com/assets/images/base-octocat.svg)
+
+    Imágen en GitHub con URL interna:
 
     ![imágen almacenada en el repositorio](https://github.com/jmgc1982/Markdown/blob/main/fork-me.jpg)
 
