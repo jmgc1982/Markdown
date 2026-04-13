@@ -232,7 +232,7 @@ Se puede mostrar una imagen escribiendo `!` y ajustando el texto alternativo den
 
     ![Octocat sonriendo y levantando un tentáculo](https://myoctocat.com/assets/images/base-octocat.svg)
 
-    ![imágen almacenada en el repositorio]()
+    ![imágen almacenada en el repositorio](https://github.com/jmgc1982/Markdown/blob/main/fork-me.jpg)
 
 ## 🪧[Tablas](https://www.markdownguide.org/extended-syntax/#tables)
 
