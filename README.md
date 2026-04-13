@@ -251,19 +251,20 @@ En Markdown podemos crear tablas de forma sencilla usando `|` (barras verticales
     | Dato A    | Dato B    | Dato C    |
     | Dato D    | Dato E    | Dato F    |
 
+## 🪧[HTML](https://www.markdownguide.org/basic-syntax/#html)
 
-<!-- PLANTILLA PARA COPIAR 
+Muchas aplicaciones de Markdown permiten usar etiquetas HTML en texto con formato Markdown. Esto resulta útil si prefieres ciertas etiquetas HTML a la sintaxis de Markdown. 
 
-# PLANTILLA PARA COPIAR
-## 🪧[TÍTULO]()
+Por ejemplo, a algunas personas les resulta más fácil usar etiquetas HTML para imágenes. Usar HTML también es útil cuando necesitas cambiar los atributos de un elemento, como especificar el color del texto o cambiar el ancho de una imagen.
 
-DESCRIPCIÓN
+Para usar HTML, inserta las etiquetas en el texto de tu archivo con formato Markdown.
 
 - 🧐Ejemplos:
 
-    AAA
+    Esta **palabra** está en negrita. (Markdown `**palabra**`)
 
--->
+    Esta <em>palabra</em> está en cursiva. (HTML `<em>palabra</em>`)
+
 
 # Más información...
 * [Sintaxis básica de redacción y formato - GitHub Docs](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
