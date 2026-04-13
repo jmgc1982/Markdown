@@ -11,17 +11,9 @@ Además, Markdown es frecuente en entornos de investigación y desarrollo por su
 
 ## 🪧[Encabezados](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)
 
-Sirven para crear una jerarquía de títulos y subtítulos en el documento. Se pueden usar escribiendo una almohadilla # seguidos de un espacio al inicio para asignar un encabezado de H1 (`# texto`) hasta 6 almohadillas H6 (`###### texto`).
+Sirven para crear una jerarquía de títulos y subtítulos en el documento. Se pueden usar escribiendo una almohadilla # seguida de un espacio al inicio para asignar un encabezado de H1 (`# texto`) hasta escribir un H6 (`###### texto`).
 
-- 🧐Ejemplos:
-
-    # Este es un subtítulo (H1) en markdown
-    ## Este es un subtítulo (H2) en markdown
-    ### Este es un subtitulo (H3) en markdown
-    #### Este es un subtítulo (H4) en markdown
-    ##### Este es un subtítulo (H5) en markdown
-    ###### Este es un subtítulo (H6) en markdown
-    ⚠️ ¡No hay subtítulos (H7 o superiores) en markdown, solo existen de H1 a H6! ⚠️
+⚠️ ¡No hay subtítulos (H7 o superiores) en markdown, solo existen de H1 a H6! ⚠️
 
 ## ✍️*Formatos de texto*
 
