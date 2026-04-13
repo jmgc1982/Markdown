@@ -251,7 +251,9 @@ En Markdown podemos crear tablas de forma sencilla usando `|` (barras verticales
     | Dato A    | Dato B    | Dato C    |
     | Dato D    | Dato E    | Dato F    |
 
-<!-- PLANTILLA PARA COPIAR -->
+
+<!-- PLANTILLA PARA COPIAR 
+
 # PLANTILLA PARA COPIAR
 ## 🪧[TÍTULO]()
 
@@ -261,6 +263,7 @@ DESCRIPCIÓN
 
     AAA
 
+-->
 
 # Más información...
 * [Sintaxis básica de redacción y formato - GitHub Docs](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
