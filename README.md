@@ -13,15 +13,64 @@ Además, Markdown es frecuente en entornos de investigación y desarrollo por su
 
 Sirven para crear una jerarquía de títulos y subtítulos dentro del documento, de esta forma, por ejemplo, se crea un índice automáticamente en GitHub y es mucho más fácil la navegación por todo el documento creado. 
 
-Se pueden usar escribiendo una almohadilla # seguida de un espacio al inicio para asignar un encabezado de H1 (`# texto`) hasta escribir un H6 (`###### texto`).
+Se pueden usar escribiendo una almohadilla # seguida de un espacio al inicio para asignar un encabezado de H1 `# texto` hasta escribir un H6 `###### texto`:
+
+```
+# Encabezado H1
+## Encabezado H2
+### Encabezado H3
+#### Encabezado H4
+##### Encabezado H5
+###### Encabezado H6
+```
 
 ⚠️¡IMPORTANTE!⚠️: No hay subtítulos H7 o superiores en markdown, solo existen de H1 a H6.
+
+## [Párrafos y saltos de línea](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#line-breaks)
+
+Si queremos separar párrafos en un texto deberemos dejar una línea en blanco entre ellos. 
+
+También podemos forzar un salto de línea de estas formas: 
+
+- Dejando 2 espacios al final de la primera línea (`  `) y pulsar la tecla `INTRO` para seguir en la segunda línea:
+
+    Este ejemplo  
+    está dividido en 2 líneas usando los dos espacios `  ` al final de la primera línea.
+
+- Incluyendo una barra diagonal inversa `\` al final de la primera línea:
+
+    Este ejemplo\
+    está dividido en 2 líneas usando la barra inversa `\` al final de la primera línea. 
+
+- Incluyendo una etiqueta de salto de una sola línea HTML `<br/>` al final de la primera línea:
+
+    Este ejemplo<br/>
+    está dividido en 2 líneas usando la etiqueta HTML `<br/>` al final de la primera línea.
+
+## [Reglas horizontales](https://www.markdownguide.org/basic-syntax/#horizontal-rules)
+
+Podemos dibujar una línea horizontal en nuestro documento para separar utilizando alguna de estas combinaciones: `---`, `***`, `___` o `<hr>`.
+
+- Con 3 guiones medios `---` :
+
+    ---
+
+- Con 3 asteriscos `***` :
+
+    ***
+
+- Con 3 guiones bajos `___`:
+    ___
+
+- Con la etiqueta HTML `<hr>` para mostrar una regla horizontal:
+
+    <hr>
 
 ## 🪧Formatos de texto
 
 ### 🪧[Negrita](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
-Para poder poner un texto en negrita usaremos dos asteríscos al inicio y dos al final del texto sin dejar espacios entre ellos (`**texto**`).
+Para poder poner un texto en negrita usaremos dos asteríscos al inicio y dos al final del texto sin dejar espacios entre ellos `**texto**`.
 
 - 🧐Ejemplos:
 
@@ -31,7 +80,7 @@ Para poder poner un texto en negrita usaremos dos asteríscos al inicio y dos al
 
 ### 🪧[Cursiva](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
-Se utiliza para enfatizar el texto. Podemos utilizarlo usando el símbolo asterísco (`*`) o el guión bajo (`_`) al inicio y al final sin dejar espacios (`*texto*` o `_texto_`).
+Se utiliza para enfatizar el texto. Podemos utilizarlo usando el símbolo asterísco (`*`) o el guión bajo (`_`) al inicio y al final sin dejar espacios `*texto*` o `_texto_`.
 
 - 🧐Ejemplos:
 
@@ -41,23 +90,23 @@ Se utiliza para enfatizar el texto. Podemos utilizarlo usando el símbolo aster�
 
     _Este también lo es... (usando `_`)_ 
 
-### 🪧[Combinaciones anidadas](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
+### 🪧[Combinaciones de formato anidadas](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
 Existen tambien una serie de combinaciones cuando el texto debe mostrarse en cursiva y negrita mezclados o al mismo tiempo:
 
 - 🧐Ejemplos:
 
-    Texto en negrita pero incluye una parte en cursiva (`**texto1_texto2_texto3**`, donde todo el texto estará en negrita pero `texto2` además estará en cursiva): 
+    Texto en negrita pero incluye una parte en cursiva `**texto1_texto2_texto3**`, donde todo el texto estará en negrita pero `texto2` además estará en cursiva: 
     
     **Este texto es _extremadamente_ importante**
 
-    Todo en negrita y en cursiva (usar tres asteriscos al inicio y final `***texto***`):
+    Todo en negrita y en cursiva: usar tres asteriscos al inicio y final `***texto***`:
 
     ***Todo este texto es importante***
 
 ### 🪧[Subrayado](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
-Para poder escribir un texto subrayado deberemos usar las etiquetas de apertura y cierre (`<ins>texto</ins>`).
+Para poder escribir un texto subrayado deberemos usar las etiquetas de apertura y cierre: `<ins>texto</ins>`.
 
 - 🧐Ejemplos:
 
@@ -67,7 +116,7 @@ Para poder escribir un texto subrayado deberemos usar las etiquetas de apertura 
 
 ### 🪧[Tachado](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
-Para escribir un texto y que esté tachado deberemos utilizar el simbolo ~ dos veces al inicio y dos veces al final del texto sin espacios entre ellos (`~~texto~~`). 
+Para escribir un texto y que esté tachado deberemos utilizar el simbolo ~ dos veces al inicio y dos veces al final del texto sin espacios entre ellos: `~~texto~~`. 
 
 El símbolo ~ (tilde o virgulilla) se puede escribir de distintas formas según el sistema operativo y el teclado:
 
@@ -85,7 +134,7 @@ El símbolo `~` se usa mucho en programación y documentación o en rutas tipo `
 
 ### 🪧[Subíndice](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
-Cuando queremos escribir un texto con un subíndice (letra o número) del estilo A<sub>B</sub>, debermos usar estas etiquetas (`A<sub>B</sub>`) para especificar el texto que se mostrará como subíndice.
+Cuando queremos escribir un texto con un subíndice (letra o número) del estilo A<sub>B</sub>, debermos usar estas etiquetas `A<sub>B</sub>` para especificar el texto que se mostrará como subíndice, en este caso la `B`.
 
 - 🧐Ejemplos:
 
@@ -97,7 +146,7 @@ Cuando queremos escribir un texto con un subíndice (letra o número) del estilo
 
 ### 🪧[Superíndice](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text)
 
-Igual que hemos visto anteriormente con el subíndice, para poder escribir un superíndice del estilo 2<sup>3</sup> debermos usar las etiquetas (`2<sup>3</sup>`) para especificar el texto que se mostrará como superíndice.
+Igual que hemos visto anteriormente con el subíndice, para poder escribir un superíndice del estilo 2<sup>3</sup> debermos usar las etiquetas `2<sup>3</sup>` para especificar el texto que se mostrará como superíndice, en este caso el `3`.
 
 - 🧐Ejemplos:
 
@@ -107,27 +156,59 @@ Igual que hemos visto anteriormente con el subíndice, para poder escribir un su
 
     α<sup>π</sup>
 
+### 🪧[Emojis](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji)
+
+Con Markdown podemos usar los famosos emojis para poder añadir un toque original a nuestros textos. Los emogis se escriben entre dos puntos `:codigo_emoji:`, por ejemplo:
+
+- :blush: `:blush:`
+- :smiley: `:smiley:`
+- :heart: `:heart:`
+- :star: `:star:`
+
+Aqui tenéis disponible la lista completa de [códigos de emojis](https://gist.github.com/rxaviers/7360908) disponibles para Markdown.
 
 ## 🪧[Citas](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-text)
 
 Sirven para citar un texto, por ejemplo de un autor concreto, de un libro, etc.
 
-Podemos citar texto usando el símbolo de mayor que (`>`) al inicio.
+Podemos citar texto usando el símbolo de mayor que `>` al inicio.
 
 - 🧐Ejemplos:
 
-    Texto que no es una Cita
-    > Texto que es una Cita
+Texto que no es una Cita
+> Texto que es una Cita
+
+También podemos escribir una [cita multilínea](https://www.markdownguide.org/basic-syntax/#blockquotes-with-multiple-paragraphs) (cita que ocupe más de una línea) usando al principio de cada línea el caracter `>` al inicio:
+
+```
+> aaa
+> 
+> aaa
+```
+
+> Texto que es una Cita
+> 
+> multilinea
+
+Si aumentamos el número de `>` usados al incio, tendremos citas de varios niveles jerárquicos (sangrado).
+
+- 🧐Ejemplos:
+
+> Cita nivel 1
+>> Cita nivel 2
+>>> Cita nivel 3
+>>>> Cita nivel 4
+>>>>> Cita nivel 5
 
 ## 🪧[Código fuente](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code)
 
-Puede destacar código o comandos dentro de una oración con comillas invertidas simples(` `` `). No se dará formato al texto dentro de las comillas invertidas. 
+Puede destacar código o comandos dentro de una oración con comillas invertidas simples (acento hacia la izquierda) ` `` `. No se dará formato al texto dentro de las comillas invertidas. 
 
 - 🧐Ejemplos:
 
     Usar `git status` para ver el estado actual del repositorio.
 
-Para dar formato al código o al texto en su propio bloque diferenciado, use tres comillas invertidas (` ``` ``` `).
+Para dar formato al código o al texto en su propio bloque diferenciado, use tres comillas invertidas ` ``` ``` `.
 
 - 🧐Ejemplo:
 
@@ -137,6 +218,15 @@ git status
 git add .
 git commit -m "mensaje"
 ```
+
+## 🪧[Cometarios](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#hiding-content-with-comments)
+
+Podemos ocultar el contenido de Markdown representado colocando el contenido en un comentario HTML `<!-- comentario -->`. Estos comentarios nos son de ayuda para describir en un documento algo que no queremos que no se muestre por pantalla.
+
+- 🧐Ejemplo:
+
+Escribirmos un comentario (¡NO VISIBLE!) -> <!-- comentario -->
+
 
 ## 🪧[Listas](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#lists)
 
@@ -186,9 +276,9 @@ Para <ins>**listas anidadas**</ins>, deberemos usar el tabulador para especifica
 
 ## 🪧[Listas de tareas](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists)
 
-Para crear una lista de tareas, se debe añadir como prefijo un guion y un espacio seguido de apertura y cierre de corchetes dejando un espacio entre ellos y finalmente otro espacio para seguir con el texto del elemento (`- [ ] elemento`). 
+Para crear una lista de tareas, se debe añadir como prefijo un guion y un espacio seguido de apertura y cierre de corchetes dejando un espacio entre ellos y finalmente otro espacio para seguir con el texto del elemento `- [ ] elemento`. 
 
-Para marcar una tarea como completada, usar una x (`[x]`). Si una descripción del elemento de lista de tareas comienza por un paréntesis, deberá escaparla con `\` para poder verlo correctamente:
+Para marcar una tarea como completada, usar una x `[x]`. Si una descripción del elemento de lista de tareas comienza por un paréntesis, deberá escaparla con `\` para poder verlo correctamente:
 
 - 🧐Ejemplos:
 
@@ -198,7 +288,7 @@ Para marcar una tarea como completada, usar una x (`[x]`). Si una descripción d
 
 ## 🪧[Enlaces](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links)
 
-Puede crear un vínculo insertado ajustando el texto del vínculo entre corchetes [ ] y ajustando la dirección URL entre paréntesis ( ) (`[texto del enlace](URL)`)
+Puede crear un vínculo insertado ajustando el texto del vínculo entre corchetes y ajustando la dirección URL entre paréntesis: `[texto del enlace](URL)`
 
 - 🧐Ejemplos:
 
@@ -244,10 +334,88 @@ En Markdown podemos crear tablas de forma sencilla usando `|` (barras verticales
 
 - 🧐Ejemplos:
 
-    | Columna 1 | Columna 2 | Columna 3 |
-    |-----------|-----------|-----------|
-    | Dato A    | Dato B    | Dato C    |
-    | Dato D    | Dato E    | Dato F    |
+``` 
+Código Markdown:
+
+| Columna 1 | Columna 2 | Columna 3 |
+|-----------|-----------|-----------|
+| Dato A    | Dato B    | Dato C    |
+| Dato D    | Dato E    | Dato F    |
+```
+| Columna 1 | Columna 2 | Columna 3 |
+|-----------|-----------|-----------|
+| Dato A    | Dato B    | Dato C    |
+| Dato D    | Dato E    | Dato F    |
+
+Para [alinear el texto de una tabla](https://www.markdownguide.org/extended-syntax/#alignment), se pueden usar los dos puntos `:` juntamente con los guiones `-` para indicar la alineación del texto:
+
+- <ins>Ninguna alineación</ins> (por defecto, a la izquierda):
+
+``` 
+Código Markdown:
+
+| Columna 1 | Columna 2 | Columna 3 |
+|-----------|-----------|-----------|
+| Dato A    | Dato B    | Dato C    |
+| Dato D    | Dato E    | Dato F    |
+```
+
+| Columna 1 | Columna 2 | Columna 3 |
+|-----------|-----------|-----------|
+| Dato A    | Dato B    | Dato C    |
+| Dato D    | Dato E    | Dato F    |
+
+- <ins>Alineación a la izquierda</ins> (forzado a la izquierda): `:---`
+
+```
+Código Markdown:
+
+| Columna 1 | Columna 2 | Columna 3 |
+| :---     | :---       | :---      |
+| Dato A    | Dato B    | Dato C    |
+| Dato D    | Dato E    | Dato F    |
+```
+
+| Columna 1 | Columna 2 | Columna 3 |
+| :---     | :---       | :---      |
+| Dato A    | Dato B    | Dato C    |
+| Dato D    | Dato E    | Dato F    |
+
+- <ins>Alineación centrada</ins>: `:----:`
+
+```
+Código Markdown:
+
+| Columna 1 | Columna 2 | Columna 3 |
+| :----:    | :----:    | :----:    |
+| Dato A    | Dato B    | Dato C    |
+| Dato D    | Dato E    | Dato F    |
+```
+
+| Columna 1 | Columna 2 | Columna 3 |
+| :----:    | :----:    | :----:    |
+| Dato A    | Dato B    | Dato C    |
+| Dato D    | Dato E    | Dato F    |
+
+- <ins>Alineación a la derecha</ins>: `---:`
+
+```
+Código Markdown:
+
+| Columna 1 | Columna 2 | Columna 3 |
+| ---:      | ---:      | ---:      |
+| Dato A    | Dato B    | Dato C    |
+| Dato D    | Dato E    | Dato F    |
+```
+
+| Columna 1 | Columna 2 | Columna 3 |
+| ---:      | ---:      | ---:      |
+| Dato A    | Dato B    | Dato C    |
+| Dato D    | Dato E    | Dato F    |
+
+Podemos dar formato al texto dentro de las tablas. Por ejemplo, podemos añadir [enlaces](#enlaces), [código](#código-fuente) (solo palabras o frases entre comillas invertidas ` `` `, no bloques de código con triple comillas invertidas ` ``` ``` `) y [énfasis](#cursiva).
+
+No podemos usar [encabezados](#encabezados), [citas](#citas), [listas](#listas), [líneas horizontales](#reglas-horizontales), [imágenes](#imágenes) ni la mayoría de las etiquetas [HTML](#html).
 
 ## 🪧[HTML](https://www.markdownguide.org/basic-syntax/#html)
 
@@ -263,6 +431,66 @@ Para usar HTML, inserta las etiquetas en el texto de tu archivo con formato Mark
 
     Esta <em>palabra</em> está en cursiva. (HTML `<em>palabra</em>`)
 
+En [esta web](https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=480:formatos-de-texto-html-negrita-cursiva-tachado-subrayado-superindice-subindice-b-y-strong-cu00713b&catid=69&Itemid=192) tenéis disponible una tabla con todas las etiquetas HTML para el formato de texto.
+
+## 🪧[Notas de pie de página](https://www.markdownguide.org/extended-syntax/#footnotes)
+
+Puede agregar notas al pie al contenido mediante esta sintaxis de corchetes:
+
+- 🧐Ejemplos:
+
+Esta es una referencia al pié de página[^1].
+
+Una nota a pié de página puede tener múltiples líneas[^2].
+
+Para ver las referencias observad al final de esta página (como pasaría en una página de un libro).
+
+[^1]: Información de la primera referéncia.
+[^2]: Información de la segunda referéncia.  
+Podemos usar los dos espacios `  ` o `\` al final de la primera línea de la referéncia\
+para hacer una información multilínea.
+
+## 🪧[Alertas](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)
+
+**Las alertas**, también conocidas como **llamadas** o **admoniciones**, son una extensión de Markdown basadas en las [citas](#citas) (blockquote) que puede usar para resaltar la información crítica. 
+
+En GitHub, se muestran con colores e iconos distintivos para indicar la importancia del contenido.
+
+Para agregar una alerta, usar una línea de cita especial que especifique el tipo de alerta, seguido de la información de alerta en una cita estándar. Hay cinco tipos de alertas disponibles:
+
+```
+> [!NOTE]
+> Información útil que los usuarios deben conocer, incluso al hojear el contenido.
+
+> [!TIP]
+> Consejos útiles para hacer las cosas mejor o más fácilmente.
+
+> [!IMPORTANT]
+> Información clave que los usuarios necesitan saber para lograr su objetivo.
+
+> [!WARNING]
+> Información urgente que requiere la atención inmediata del usuario para evitar problemas.
+
+> [!CAUTION]
+> Advertencias sobre riesgos o consecuencias negativas de ciertas acciones.
+```
+
+- 🧐Ejemplos:
+
+> [!NOTE]
+> Información útil que los usuarios deben conocer, incluso al hojear el contenido.
+
+> [!TIP]
+> Consejos útiles para hacer las cosas mejor o más fácilmente.
+
+> [!IMPORTANT]
+> Información clave que los usuarios necesitan saber para lograr su objetivo.
+
+> [!WARNING]
+> Información urgente que requiere la atención inmediata del usuario para evitar problemas.
+
+> [!CAUTION]
+> Advertencias sobre riesgos o consecuencias negativas de ciertas acciones.
 
 # Más información...
 * [Sintaxis básica de redacción y formato - GitHub Docs](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
