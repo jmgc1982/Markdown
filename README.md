@@ -497,4 +497,10 @@ Para agregar una alerta, usar una línea de cita especial que especifique el tip
 * [Guía de referéncia *The Markdown Guide*](https://www.markdownguide.org/)
 
 # Histórico de evolucion de estrellas
-![Gráfica](https://www.star-history.com/?repos=jmgc1982%2FMarkdown&type=timeline&legend=top-left)
+<a href="https://www.star-history.com/?repos=jmgc1982%2FMarkdown&type=timeline&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=jmgc1982/Markdown&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=jmgc1982/Markdown&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=jmgc1982/Markdown&type=timeline&legend=top-left" />
+ </picture>
+</a>
