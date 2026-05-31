@@ -499,3 +499,5 @@ Para agregar una alerta, usar una línea de cita especial que especifique el tip
 # Histórico de estrellas
 
 [![Star History Chart](https://api.star-history.com/chart?repos=jmgc1982/Markdown&type=timeline&legend=top-left)](https://www.star-history.com/?repos=jmgc1982%2FMarkdown&type=timeline&legend=top-left)
+
+---
