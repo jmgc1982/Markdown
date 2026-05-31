@@ -496,7 +496,6 @@ Para agregar una alerta, usar una línea de cita especial que especifique el tip
 * [Sintaxis básica de redacción y formato - GitHub Docs](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [Guía de referéncia *The Markdown Guide*](https://www.markdownguide.org/)
 
-# Histórico de evolucion de estrellas
-## Star History
+# Histórico de estrellas
 
 [![Star History Chart](https://api.star-history.com/chart?repos=jmgc1982/Markdown&type=timeline&legend=top-left)](https://www.star-history.com/?repos=jmgc1982%2FMarkdown&type=timeline&legend=top-left)
